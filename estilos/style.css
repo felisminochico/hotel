@@ -111,8 +111,10 @@ footer{
     background-color: var(--cor3);
     margin: auto;
     border-radius: 10px 0px;
-    height: 88px;
-    padding: 3px;
+    max-height: 88px;
+    min-height: 20px;
+    padding: 2px;
+
 }
 
 footer > p{
@@ -123,10 +125,6 @@ footer > p{
     line-height: 0.3em;
 }
 
-footer > p.unico{
-    margin-bottom: 2px;
-}
-
 footer > p > span{
     font-weight: bold;
     font-style: italic;
@@ -135,6 +133,7 @@ footer > p > span{
 footer > p.unico{
     text-align: center;
     padding-top: 17px;
+    margin-bottom: 6px;
 }
 
 footer a{
