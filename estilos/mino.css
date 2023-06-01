@@ -1,0 +1,82 @@
+@charset "UTF-8";
+
+:root{
+    --cor0:#5d9adb;
+    --cor1:#EAEAEA;
+    --cor2:#A6E1FA;
+    --cor3:#1dbbc4;
+    --cor4:#440938;
+
+    --fonte-padrao: Arial, Helvetica, Verdana, sans-serif;
+    --fonte-cabecalhos: 'Cabecalhos';
+    --fonte-titulos: 'Titulos';
+    --fonte-corpo: 'Subtitulos';
+}
+
+body{
+    background-image: linear-gradient(to right, var(--cor0), var(--cor4));
+    font-family: var(--fonte-padrao);
+}
+
+main{
+    width: 700px;
+    margin: auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px 0px;
+    margin-bottom: 10px;
+}
+
+main p{
+    line-height: 1.5em;
+}
+
+h1{
+    text-align: center;
+    box-shadow: inset 3px 3px 8px 2px rgba(0, 0, 0, 0.308);
+    width: 250px;
+    margin: auto;
+    border-radius: 12px 0px;
+    padding: 8px;
+    margin-bottom: 35px;
+}
+
+a{
+    color: var(--cor4);
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+
+footer{
+    min-width: 320px;
+    max-width: 750px;
+    background-color: var(--cor3);
+    margin: auto;
+    border-radius: 10px 0px;
+    height: 78px;
+    padding: 3px;
+}
+
+footer > p{
+    text-align: left;
+    font-family: var(--fonte-padrao);
+    line-height: 0.1em;
+    text-indent: 8px;
+}
+
+footer > p > span{
+    font-weight: bold;
+    font-style: italic;
+}
+
+footer > p.unico{
+    text-align: center;
+    padding-top: 17px;
+}
+
+footer a{
+    text-decoration: none;
+    color: var(--cor4);
+    font-weight: bold;
+}

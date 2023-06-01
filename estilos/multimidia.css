@@ -1,0 +1,49 @@
+@charset "UTF-8";
+
+:root{
+    --cor0:#5d9adb;
+    --cor1:#EAEAEA;
+    --cor2:#A6E1FA;
+    --cor3:#1dbbc4;
+    --cor4:#440938;
+
+    --fonte-padrao: Arial, Helvetica, Verdana, sans-serif;
+    --fonte-cabecalhos: 'Cabecalhos';
+    --fonte-titulos: 'Titulos';
+    --fonte-corpo: 'Subtitulos';
+}
+
+main > article > h2{
+    color: #440938;
+    background-image: linear-gradient(to right, #1dbcc431, transparent);
+    padding: 10px;
+    border-radius: 10px 0px;
+    font-size: 1.4em;
+}
+
+main > article > h3{
+    color: var(--cor4);
+    font-size: 1.1em;
+}
+
+main > article > a{
+    display: block;
+    background-color: #1dbbc4;
+    padding: 15px;
+    width: 130px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: #440938;
+    font-weight: bold;
+}
+
+main > article > a.baixo{
+    margin-bottom: 50px;
+}
+
+main > article > a:hover{
+    text-decoration: underline;
+    color: white;
+}
+
+

@@ -1,0 +1,55 @@
+@charset "UTF-8";
+
+:root{
+    --cor0:#5d9adb;
+    --cor1:#EAEAEA;
+    --cor2:#A6E1FA;
+    --cor3:#1dbbc4;
+    --cor4:#440938;
+
+    --fonte-padrao: Arial, Helvetica, Verdana, sans-serif;
+    --fonte-cabecalhos: 'Cabecalhos';
+    --fonte-titulos: 'Titulos';
+    --fonte-corpo: 'Subtitulos';
+}
+
+form{
+    width: 400px;
+    margin: auto;
+} 
+
+h1{
+    text-align: center;
+}
+
+fieldset{
+    margin: 5px;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.37);
+}
+
+fieldset legend{
+    color: var(--cor4);
+    font-weight: bold;
+}
+
+fieldset p{
+    font-family: var(--fonte-cabecalhos);
+    font-weight: bold;
+}
+
+fieldset input{
+    text-align: left;
+}
+
+fieldset .enviar{
+    width: 90px;
+    height: 30px;
+    color: var(--cor4);
+    font-weight: bold;
+    background-color: #5d9adb;
+    font-size: 1.1em;
+}
+
+fieldset .direita{
+    text-align: right;
+}
