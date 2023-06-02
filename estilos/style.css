@@ -95,6 +95,13 @@ main > article > h1{
     border-radius: 10px 0px;
 }
 
+main > article > h2{
+    background-image: linear-gradient(to right, var(--cor3), transparent);
+    border-radius: 10px 0px;
+    color: var(--cor4);
+    padding: 7px;
+}
+
 main > article > p{
     text-indent: 30px;
     text-align: justify;
