@@ -18,7 +18,8 @@ main > article > h2{
     background-image: linear-gradient(to right, #1dbcc431, transparent);
     padding: 10px;
     border-radius: 10px 0px;
-    font-size: 1.4em;
+    font-size: 2em;
+    font-family: var(--fonte-corpo);
 }
 
 main > article > h3{
@@ -26,24 +27,51 @@ main > article > h3{
     font-size: 1.1em;
 }
 
-main > article > a{
-    display: block;
-    background-color: #1dbbc4;
-    padding: 15px;
-    width: 130px;
-    border-radius: 10px;
-    text-decoration: none;
-    color: #440938;
-    font-weight: bold;
+div{
+    background-color: rgba(128, 128, 128, 0.205);
+    padding: 8px;
+    position: relative;
+    margin: 0px -20px;
 }
 
-main > article > a.baixo{
-    margin-bottom: 50px;
+div.video1{
+    padding-bottom: 46%;
 }
 
-main > article > a:hover{
-    text-decoration: underline;
-    color: white;
+div.video1 > video{
+    position: absolute;
+    left: 10%;
+    top: 3%;
+    height: 93.8%;
+    width: 80%;
 }
+
+div.video2{
+    padding-bottom: 40%;
+}
+
+div.video2 > video{
+    position: absolute;
+    left: 7%;
+    top: 7%;
+    height: 85%;
+    width: 86%;
+}
+
+div.video3{
+    padding-bottom: 46%;
+}
+
+div.video3 > video{
+    position: absolute;
+    top: 13%;
+    left: 8%;
+    width: 81.8%;
+    height: 71.6%;
+}
+
+
+
+
 
 

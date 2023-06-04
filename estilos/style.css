@@ -100,6 +100,7 @@ main > article > h2{
     border-radius: 10px 0px;
     color: var(--cor4);
     padding: 7px;
+    
 }
 
 main > article > p{
@@ -118,9 +119,8 @@ footer{
     background-color: var(--cor3);
     margin: auto;
     border-radius: 10px 0px;
-    max-height: 88px;
-    min-height: 20px;
     padding: 2px;
+
 
 }
 
@@ -139,12 +139,5 @@ footer > p > span{
 
 footer > p.unico{
     text-align: center;
-    padding-top: 17px;
-    margin-bottom: 6px;
-}
-
-footer a{
-    text-decoration: none;
-    color: var(--cor4);
-    font-weight: bold;
+    
 }
