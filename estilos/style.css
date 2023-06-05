@@ -109,8 +109,10 @@ main > article > p{
     line-height: 1.8em;
 }
 
-main > article > img{
-    width: 100%;
+main > picture > source, img{
+    width: 95%;
+    display: block;
+    margin: auto;
 }
 
 footer{
