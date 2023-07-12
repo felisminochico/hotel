@@ -127,7 +127,7 @@ footer{
 }
 
 footer > p{
-    text-align: left;
+    text-align: center;
     font-family: var(--fonte-padrao);
     line-height: 0.1em;
     text-indent: 8px;
